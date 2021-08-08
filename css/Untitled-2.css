@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0
+}
+
+
+.menu1
+{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background-color: black;
+	
+}
+.menu1 ul
+{
+	list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 ul li
+{
+	display: inline-block;
+	float: left;
+	padding: 0 40px ;
+	position: relative;
+	
+	
+}
+.menu1 ul li a
+     
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px gray;
+	
+}
+.menu1 ul li:hover
+     
+{
+	background-color: #827D7D;
+	
+}
+.menu1 ul li ul
+{    position:absolute;
+     top: 30px;
+     left: -60px; 
+     visibility: hidden;
+}
+.menu1 ul li ul li
+{
+	width: 100px;
+	height: 70px;
+	
+	
+	
+}
+
+.menu1 ul li:hover ul
+{
+	visibility:visible;
+	
+	
+}
+
+.text1
+{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	margin-top: 20px;
+	list-style: none;
+		
+}
+
+
+.xe1
+{
+	text-align: center;
+	padding-top:250px;
+	
+}
+.xe1 ul li
+{
+	list-style: none;
+
+}
+.xe1 ul li a
+{
+	text-decoration: none;
+	color: white;
+	
+}
+
+.khung
+{
+	width: 100%;
+	height:3000px;
+	background-image:url("../images/hinh1-100.jpg");
+	border: medium;
+}
+.video
+{
+	width: 100%;
+	height: 450px;
+	}
+
+.xe2
+{
+	width: 100%;
+	height: 720px;
+	text-align: center;
+	padding-top: 50px;
+  
+}
+.xe3
+{
+	width: 100%;
+	height: 470px;
+	text-align: center;
+	padding-top: 50px;
+  
+}
+.end
+{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	
+}
+.menu2
+{
+	width: 100%;
+	height: 45px;
+	background-color:#A40002;
+	text-align: center;
+}
+.xe2 ul li
+{
+	list-style: none;
+	
+}
+.xe2 ul li a
+{
+	text-decoration: none;
+	color: white;
+	
+}
+.xe3 ul li
+{
+	
+	list-style: none;
+}
+.xe3 ul li a
+{
+	text-decoration: none;
+	color: white;
+	
+}
